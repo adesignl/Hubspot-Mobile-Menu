@@ -9,6 +9,6 @@ $(function(){
 	// -------------------
 	// mobileMenu(< MENU WRAPPERS HERE >, < LOGO LINK HERE >);
 
-	mobileMenu('.menu-wrapper-1, .menu-wrapper-2', '.logo-wrapper a');
+	mobileMenu('.menu-wrapper-1,.menu-wrapper-2', '.logo-wrapper > a');
 
 }());

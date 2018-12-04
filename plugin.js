@@ -37,8 +37,8 @@ function mobileMenu(menuWrapper, logo) {
 
     // Add logo To Mobile Menu If True
     if (logo !== '') {
-        var $logoClone = $(logo).eq(0).clone();
-        $mobileMenu.prepend($logoClone).addClass('logo'); // add class of logo to it
+        var $logoClone = $(logo).eq(0).clone().addClass('logo');
+        $mobileMenu.prepend($logoClone); // add class of logo to it
     }
 
     // add buttons to parent menu items
